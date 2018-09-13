@@ -18,7 +18,7 @@ int main(void)
 
     for (k=5;k>0;)
     {
-        k=k-1;
+        k--;
         printf ("%d\n", k);
 
     }
