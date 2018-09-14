@@ -7,7 +7,8 @@ int main(void)
     k=0;
     while (k<5)
     {
-        sum=k; //use something different in "while" version
+
+        sum=sum+k; //use something different in "while" version
         k++;
 
     }
@@ -20,7 +21,6 @@ int main(void)
     {
         k--;
         printf ("%d\n", k);
-
     }
 
 }
