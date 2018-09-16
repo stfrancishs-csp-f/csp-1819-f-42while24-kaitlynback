@@ -4,6 +4,7 @@ int main(void)
     int sum=0;
     int k;
 
+
     k=0;
     while (k<5)
     {
@@ -12,12 +13,12 @@ int main(void)
         k++;
 
     }
-    printf ("%d\n",sum);
+    printf ("4 + 6 = %d -Sum\n",sum);
 
 
 
 
-    for (k=5;k>0;)
+    for (k=11;k>1;)
     {
         k--;
         printf ("%d\n", k);
