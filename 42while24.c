@@ -21,8 +21,10 @@ int main(void)
     for (k=11;k>1;)
     {
         k--;
-        printf ("%d\n", k);
+        printf ("%2d \n", k);
+
     }
+    printf("Blastoff!!\n");
 
 }
 
