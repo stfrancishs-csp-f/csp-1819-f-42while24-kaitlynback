@@ -8,12 +8,12 @@ int main(void)
     k=0;
     while (k<5)
     {
-
+        printf("%d\n", k);
         sum=sum+k; //use something different in "while" version
         k++;
 
     }
-    printf ("4 + 6 = %d -Sum\n",sum);
+    printf ("Sum- %d\n",sum);
 
 
 
